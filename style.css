@@ -1,0 +1,171 @@
+.main {
+     margin: 0;
+     padding: 0;
+     position: static;
+     font-family: sans-serif;
+     background-color: #fff;
+}
+ .middle {
+     width: 100%;
+     background-color: #fff;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     position: relative;
+}
+ .skillBox {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     width: 100%;
+     margin: 20px 0;
+}
+ .skillBox p {
+     color: #000;
+     text-transform: uppercase;
+     margin: 0 0 10px;
+     padding: 0;
+     font-family: bold;
+}
+ .skillBox .skill_text {
+     display: -moz-flex;
+     display: -ms-flex;
+     display: -o-flex;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+}
+ .skillBox .skill {
+     background-color: #262626;
+     padding: 2px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     border: 1px solid #FF5252;
+     border-radius: 2px;
+}
+ .skill .skill_level {
+     background-color: #FF5252;
+     width: 100%;
+     height: 10px;
+}
+ .linux{
+     -webkit-animation: linux 2s forwards;
+     animation: linux 2s forwards;
+}
+ @-webkit-keyframes linux {
+     from {
+        width: 0%
+    }
+     to {
+        width: 85%
+    }
+}
+ @keyframes linux {
+     from {
+        width: 0%
+    }
+     to {
+        width: 85%
+    }
+}
+ .bash{
+     -webkit-animation: bash 2s forwards;
+     animation: bash 2s forwards;
+}
+ @-webkit-keyframes bash {
+     from {
+        width: 0%
+    }
+     to {
+        width: 80%
+    }
+}
+ @keyframes bash {
+     from {
+        width: 0%
+    }
+     to {
+        width: 80%
+    }
+}
+ .c-cpp{
+     -webkit-animation: c-cpp 2s forwards;
+     animation: c-cpp 2s forwards;
+}
+ @-webkit-keyframes c-cpp {
+     from {
+        width: 0%
+    }
+     to {
+        width: 75%
+    }
+}
+ @keyframes c-cpp {
+     from {
+        width: 0%
+    }
+     to {
+        width: 75%
+    }
+}
+ .java{
+     -webkit-animation: java 2s forwards;
+     animation: java 2s forwards;
+}
+ @-webkit-keyframes java {
+     from {
+        width: 0%
+    }
+     to {
+        width: 90%
+    }
+}
+ @keyframes java {
+     from {
+        width: 0%
+    }
+     to {
+        width: 90%
+    }
+}
+ .python{
+     -webkit-animation: python 2s forwards;
+     animation: python 2s forwards;
+}
+ @-webkit-keyframes python {
+     from {
+        width: 0%
+    }
+     to {
+        width: 70%
+    }
+}
+ @keyframes python {
+     from {
+        width: 0%
+    }
+     to {
+        width: 70%
+    }
+}
+ .git{
+     -webkit-animation: git 2s forwards;
+     animation: git 2s forwards;
+}
+ @-webkit-keyframes git {
+     from {
+        width: 0%
+    }
+     to {
+        width: 75%
+    }
+}
+ @keyframes git {
+     from {
+        width: 0%
+    }
+     to {
+        width: 75%
+    }
+}
